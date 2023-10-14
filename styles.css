@@ -1,0 +1,472 @@
+     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+
+:root{
+   --peru:#ffae00;
+   --black:rgba(29, 29, 29, 0.922);
+   --white:#fff;
+   --light-black:#4d4b4b;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --dark-bg:rgba(29, 29, 29, 0.7);
+   --border:.1rem solid #391b1b;
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+* {
+   font-family: 'Arial', 'Helvetica', sans-serif; 
+   font-size: 16px; 
+   line-height: 1.6; 
+   font-weight: normal; 
+   letter-spacing: 0.02em; 
+   color: #333; 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+   transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+   text-transform: capitalize;
+ }
+ 
+
+* > img{
+   user-select: none;
+   pointer-events: none;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar{
+   width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+   background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+   background-color: var(--peru);
+}
+
+section{
+   padding:5rem 10%;
+}
+
+.heading{
+   text-align: center;
+   margin-bottom: 3rem;
+}
+
+.heading span{
+   font-size: 2.5rem;
+   color:var(--peru);
+}
+
+.heading h3{
+   font-size: 4.5rem;
+   color:var(--black);
+}
+
+.btn{
+   margin-top: 1rem;
+   display: inline-block;
+   background: var(--peru);
+   color:var(--white);
+   font-size: 2rem;
+   cursor: pointer;
+   padding:1rem 3rem;
+}
+
+.btn:hover{
+   letter-spacing: .2rem;
+}
+
+.header{
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   box-shadow: var(--box-shadow);
+   position: sticky;
+   top:0; left:0; right: 0;
+   background: var(--white);
+   z-index: 1000;
+}
+
+.header .logo{
+   font-size: 2.5rem;
+   font-weight: bolder;
+   color:var(--black);
+}
+
+.header .logo i{
+   color:var(--peru);
+   padding-right: .5rem;
+}
+
+.header .navbar a{
+   font-size: 2rem;
+   margin-left: 2rem;
+   color:var(--light-black);
+}
+
+.header .navbar a:hover{
+   color:var(--peru);
+}
+
+.about{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+.about .image{
+   flex: 1 1 41rem;
+}
+
+.about .image img{
+   width: 100%;
+}
+
+
+.about .content{
+   flex: 1 1 41rem;
+}
+.about .content .title{
+   font-size: 3rem;
+   color: var(--black);
+}
+.about .content p{
+   font-size: 1.7rem;
+   color: var(--light-black);
+   padding: 1rem;
+   line-height: 2;
+}
+
+.about .content .icons-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+   margin-top: 3rem;
+}
+.about .content .icons-container .icons{
+   flex: 1 1 16rem;
+   text-align: center;
+   background: var(--light-bg);
+   padding: 3rem 2rem;
+}
+.about .content .icons-container .icons img{
+   height: 5rem;
+}
+.about .content .icons-container .icons h3{
+   padding-top: 1rem;
+   font-size: 2rem;
+   color: var(--light-black);
+   font-weight: bold;
+}
+
+.priest {
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .heading {
+   text-align: center;
+ }
+
+ .rituals .gallery-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 0 -15px; 
+ }
+ 
+ .rituals .box {
+   width: calc(33.333% - 30px); 
+   margin: 15px 0; 
+   box-sizing: border-box;
+ }
+ 
+ .rituals .box img {
+   width: 100%;
+   height: auto;
+ }
+ 
+ 
+ .image-gallery {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .image-container {
+   margin: 0 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 0 4px 6px rgba(23, 22, 22, 0.951); 
+ }
+ 
+ .image-container img {
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+ }
+ 
+ .image-container h3 {
+   font-size: 20px;
+   text-align: center;
+   margin-top: 20px;
+ }
+
+ .gallery-container .box {
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.145); 
+ }
+ 
+
+ .priest .image-container {
+   margin: 0 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.275); 
+ }
+
+ 
+ .btn {
+   margin-bottom: 30px;
+ }
+
+ .astrology {
+   background: var(--light-bg);
+}
+
+.astrology .a1 .a2 .image {
+   height: 25rem;
+   overflow: hidden;
+   position: relative;
+}
+
+.astrology .a1 .a2 .image img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.astrology .a1 .a2 .image span {
+   position: absolute;
+   bottom: -10rem;
+   left: 50%;
+   transform: translateX(-50%);
+   padding: 1rem 1.5rem;
+   font-size: 2rem;
+   color: var(--white);
+   background: var(--black);
+}
+
+.astrology .a1 .a2:hover .image span {
+   bottom: 1rem;
+}
+
+.astrology .a1 .a2:hover .image img {
+   transform: scale(1.1);
+}
+
+.astrology .a1 .a2 .content {
+   padding: 2rem;
+   background: var(--white);
+   box-shadow: var(--box-shadow);
+   border: var(--border);
+   margin-bottom: 4rem;
+}
+
+.astrology .a1 .a2 .content .icon {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+}
+
+.astrology .a1 .a2 .content .icon a {
+   font-size: 1.5rem;
+   color: var(--light-black);
+}
+
+.astrology .a1 .a2 .content .icon a i {
+   padding-right: .7rem;
+   color: var(--peru);
+}
+
+.astrology .a1 .a2 .content .icon a:hover {
+   color: var(--peru);
+}
+
+.astrology .a1 .a2 .content .title {
+   font-size: 2.5rem;
+   color: var(--black);
+}
+
+.astrology .a1 .a2 .content .title:hover {
+   text-decoration: underline;
+}
+
+.astrology .a1 .a2 .content p {
+   padding: 1rem 0;
+   line-height: 2;
+   font-size: 1.6rem;
+   color: var(--light-black);
+}
+
+ .register {
+   background: var(--peru);
+}
+
+.register .heading span {
+   color: var(--white);
+}
+
+.register .heading h3 {
+   color: var(--white);
+}
+
+.register form {
+   padding: 2rem;
+   background: var(--white);
+   box-shadow: var(--box-shadow);
+}
+
+.register form .box-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+.register form .box-container .box {
+   flex: 1 1 41rem;
+}
+
+.register form .box-container .box .inputBox input,
+.register form .box-container .box .inputBox textarea {
+   width: 100%;
+   margin: 1rem 0;
+   padding: 1.2rem 1.4rem;
+   font-size: 1.7rem;
+   color: var(--light-black);
+   border: var(--border);
+   text-transform: none;
+}
+
+.register form .box-container .box .inputBox input::placeholder,
+.register form .box-container .box .inputBox textarea::placeholder {
+   text-transform: capitalize;
+}
+
+.register form .box-container .box .inputBox input:focus,
+.register form .box-container .box .inputBox textarea:focus {
+   background: var(--black);
+   color: var(--white);
+}
+
+.register form .box-container .box .inputBox input:focus::placeholder,
+.register form .box-container .box .inputBox textarea:focus::placeholder {
+   color: var(--light-white);
+}
+
+.register form .box-container .box .inputBox textarea {
+   height: 20rem;
+   resize: none;
+}
+
+.register form .box-container .box .inputBox .map {
+   height: 20rem;
+   width: 100%;
+   margin: 1rem 0;
+   padding: .5rem 0;
+}
+
+.register form .box-container .box .inputBox span {
+   color: var(--light-black);
+   font-size: 2rem;
+}
+
+.footer{
+   text-align: center;
+}
+
+.footer .icons-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   gap: 2rem;
+}
+
+.footer .icons-container .icons{
+   text-align: center;
+   padding: 3rem 2rem;
+}
+
+.footer .icons-container .icons i{
+   height: 6rem;
+   width: 6rem;
+   border-radius: 50%;
+   background: var(--peru);
+   color: var(--white);
+   margin-bottom: 1rem;
+   line-height: 5.7rem;
+   font-size: 2rem;
+}
+
+.footer .icons-container .icons h3{
+   font-size: 2rem;
+   color: var(--black);
+   padding: 1rem 0;
+}
+
+.footer .icons-container .icons p{
+   line-height: 1.5rem;
+   font-size: 1.7rem;
+   color: var(--light-black);
+   text-transform: none;
+   margin-bottom: .5rem;
+}
+
+.footer .social-media-links {
+   margin: 2rem 0;
+}
+
+.footer .social-media-links a {
+   height: 6rem;
+   width: 6rem;
+   line-height: 5.8rem;
+   background: var(--black);
+   color: var(--white);
+   margin: 0 .3rem;
+   font-size: 2.5rem;
+}
+
+.footer .social-media-links a:hover {
+   background: var(--peru);
+}
+
+
+.footer .credit{
+   padding-top: 2rem;
+   margin-top: 3rem;
+   border-top: var(--border);
+   font-size: 2rem;
+   color: var(--light-black);
+}
+
+.footer .credit span{
+   color: var(--peru);
+}
