@@ -12,6 +12,7 @@ Hello guys! my name is Challa Sathwik.I developed this website using Html  and  
 
 ### Short Description :
 
+This website is designed for booking priests to conduct various rituals. It provides a detailed list of priests  avaliable and also the list of rituals that  those priests are able to perform.Users can select the priest by their own wish and choice.If a person is already a priest, they can register in the registration section. This allows them to offer their services as well.
 
 
 ## Output Screenshots of the Website
