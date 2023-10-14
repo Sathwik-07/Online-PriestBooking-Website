@@ -6,9 +6,13 @@ Hello guys! my name is Challa Sathwik.I developed this website using Html  and  
 
 #### (1) List of available priests with book option
 
-#### 2) List of rituals those priest's are able to perform
+#### (2) List of rituals those priest's are able to perform
 
 #### (3) Registration section for priests to register and offer their services.
+
+### Short Description :
+
+
 
 ## Output Screenshots of the Website
 
